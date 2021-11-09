@@ -1,0 +1,26 @@
+.f-links {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: #70757a;
+}
+
+.footer-links:hover {
+  text-decoration: underline;
+}
+
+.footer-img {
+  height: 15px;
+}
+
+.pais {
+  padding: 15px;
+}
+
+.border-footer {
+  border: 1px #d6d4d4 solid;
+}

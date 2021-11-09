@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar2 {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  padding: 10px;
+}
+
+.grid {
+  height: 35px;
+  padding: 3px 20px 3px 20px;
+  vertical-align: middle;
+}
+
+.links:link,
+.links:visited,
+.links:active {
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+}
+
+.links:hover {
+  text-decoration: underline;
+}
+
+.log-in {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  background-color: #1a73e8;
+  border-radius: 2.5px;
+}
+
+.log-in:hover {
+  background-color: #4f9bff;
+}

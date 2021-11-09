@@ -1,56 +1,88 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Clone</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Google Clone</title>
-  <link rel="stylesheet" href="css/main.css">
-</head>
-
-<body>
-  <header>
-    <ul class="navbar">
-      <li><a href="" class="links">Sobre Google</a></li>
-      <li><a href="" class="links">Tienda</a></li>
-      <li><a href="" class="links">Gmail</a></li>
-      <li><a href="" class="links">Imágenes</a></li>
-      <li><img src="https://static.thenounproject.com/png/756729-200.png" class="grid"></li>
-      <li><a href="" class="log-in">Iniciar sesión</a></li>
-    </ul>
-  </header>
-  <main>
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="logo">
-    <div class="search-box">
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png">
-      <form>
-        <input type="text">
-        <input type="button" value="Buscar con Google">
-        <input type="button" value="Voy a tener suerte">
-      </form>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png">
-    </div>
-  </main>
-  <footer>
-    <div class="pais">
-      <p>España</p>
-    </div>
-    <div>
-      <a href="" class="footer-links"><img
-          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC">
-        Emision neutra de carbono desde el 2007</a>
-      <ul>
-        <li><a href="" class="footer-links">Publicidad</a></li>
-        <li><a href="" class="footer-links">Empresa</a></li>
-        <li><a href="" class="footer-links">Cómo funciona la Búsqueda</a></li>
-        <li><a href="" class="footer-links">Privacidad</a></li>
-        <li><a href="" class="footer-links">Términos</a></li>
-        <li><a href="" class="footer-links">Configuración</a></li>
+  <body>
+    <header>
+      <ul class="navbar">
+        <li><a href="" class="links">Sobre Google</a></li>
+        <li><a href="" class="links">Tienda</a></li>
       </ul>
-    </div>
-  </footer>
-</body>
-
+      <ul class="navbar2">
+        <li><a href="" class="links">Gmail</a></li>
+        <li><a href="" class="links">Imágenes</a></li>
+        <li>
+          <a href="">
+            <img
+              src="https://static.thenounproject.com/png/756729-200.png"
+              alt=""
+              title="Aplicaciones de Google"
+              class="grid"
+            />
+          </a>
+        </li>
+        <li><a href="" class="log-in">Iniciar sesión</a></li>
+      </ul>
+    </header>
+    <main>
+      <img
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        alt=""
+        class="logo"
+      />
+      <form>
+        <div class="search-box">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png"
+            alt=""
+          />
+          <input type="text" class="search" />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png"
+            alt=""
+            title="Buscar por voz"
+            class="micro"
+          />
+        </div>
+        <div class="buttons">
+          <input type="button" value="Buscar con Google" class="button" />
+          <input type="button" value="Voy a tener suerte" class="button" />
+        </div>
+      </form>
+    </main>
+    <footer>
+      <div class="pais">
+        <p>España</p>
+      </div>
+      <div class="border-footer">
+        <ul class="f-links">
+          <li><a href="" class="footer-links">Publicidad</a></li>
+          <li><a href="" class="footer-links">Empresa</a></li>
+          <li><a href="" class="footer-links">Cómo funciona la Búsqueda</a></li>
+          <li>
+            <a href="" class="footer-links">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC"
+                alt=""
+                class="footer-img"
+              />
+              <span>Emision neutra de carbono desde el 2007</span>
+            </a>
+          </li>
+          <li><a href="" class="footer-links">Privacidad</a></li>
+          <li><a href="" class="footer-links">Términos</a></li>
+          <li><a href="" class="footer-links">Configuración</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
