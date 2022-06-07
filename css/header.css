@@ -14,7 +14,7 @@
 
 .grid {
   height: 35px;
-  padding: 3px 20px 3px 20px;
+  padding: 3px 20px;
   vertical-align: middle;
 }
 
@@ -32,11 +32,22 @@
 .log-in {
   text-decoration: none;
   color: white;
-  padding: 10px 20px 10px 20px;
+  padding: 10px;
   background-color: #1a73e8;
   border-radius: 2.5px;
+  width: 100%;
 }
 
 .log-in:hover {
   background-color: #4f9bff;
+}
+
+header > ul {
+  margin: 6px;
+}
+
+@media screen and (max-width: 375px) {
+  .log-in {
+    padding: 5px;
+  }
 }

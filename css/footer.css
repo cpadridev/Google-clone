@@ -1,5 +1,6 @@
 .f-links {
   display: flex;
+  flex-wrap: wrap;
   padding: 20px;
   justify-content: space-between;
 }
@@ -15,6 +16,7 @@
 
 .footer-img {
   height: 15px;
+  vertical-align: middle;
 }
 
 .pais {
@@ -23,4 +25,8 @@
 
 .border-footer {
   border: 1px #d6d4d4 solid;
+}
+
+.f-links > li {
+  margin: 6px;
 }

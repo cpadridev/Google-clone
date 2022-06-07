@@ -5,33 +5,30 @@
 }
 
 html {
-  min-height: 100%;
-  position: relative;
-}
-body {
-  margin: 0;
-  margin-bottom: 40px;
+  width: 100%;
 }
 
 header {
   display: flex;
+  flex-wrap: wrap;
   padding: 20px;
   justify-content: space-between;
-}
-
-main {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 footer {
   background-color: #f2f2f2;
   color: #70757a;
-  width: 100%;
   position: fixed;
   bottom: 0; 
+  width: 100%;
 }
 
 li {
   list-style: none;
+}
+
+@media screen and (max-width: 550px) {
+  header {
+    justify-content: space-around;
+  }
 }
